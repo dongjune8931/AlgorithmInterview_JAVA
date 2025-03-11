@@ -14,7 +14,7 @@ class Solution6{
 
 	int left,maxLen;
 	public void extendPalindrome(String s, int j, int k){
-		// 투 포인터가 유효한 범위 내에 있고, 양쪽 끝 문자가 일치하는 팰린드롬인 경우 범휘 확장
+		// 투 포인터가 유효한 범위 내에 있고, 양쪽 끝 문자가 일치하는 팰린드롬인 경우 범위 확장
 		while(k>=0 && k<s.length()&&s.charAt(j)==s.charAt(k)){
 			j--;
 			k++;

@@ -6,7 +6,6 @@ import java.util.Deque;
 class Solution8_1{
 	/**
 	 * 투포인터가 최대를 향해 이동하는 풀이
-	 *
 	 */
 	public int trap(int[] height){
 		int volume=0;
