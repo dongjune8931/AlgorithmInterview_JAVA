@@ -1,7 +1,7 @@
-package com.example.programmers;
+package com.example.programmers.week1;
 
 import java.util.*;
-
+//세장일때도 고민해보자
 class Solution {
 	public int solution(int coin, int[] cards) {
 		int n = cards.length;

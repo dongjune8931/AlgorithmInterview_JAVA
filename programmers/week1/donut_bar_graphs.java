@@ -1,4 +1,4 @@
-package com.example.programmers;
+package com.example.programmers.week1;
 
 import java.util.*;
 
