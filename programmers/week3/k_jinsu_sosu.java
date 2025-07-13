@@ -19,9 +19,10 @@ class Solution2 {
 				count++;
 			}
 		}
-
 		return count;
+
 	}
+
 	private boolean isPrime(long num) {
 		if (num < 2) return false;
 		for (long i = 2; i * i <= num; i++) {
