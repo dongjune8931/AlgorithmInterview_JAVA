@@ -26,7 +26,7 @@ public class ch13_44 {
 		Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
 		for (int[] time : times) {
 			graph.putIfAbsent(time[0], new HashMap<>());
-			graph.get(time[0]).put(time[0], time[1]);
+			graph.get(time[0]).put(time[1], time[1]);
 		}
 		//<도착지, 소요시간>
 		Queue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(Map.Entry.comparingByValue());
