@@ -35,7 +35,4 @@ public class ch14_49 {
 		dfs(root);
 		return this.longest;
 	}
-
-
-
 }
